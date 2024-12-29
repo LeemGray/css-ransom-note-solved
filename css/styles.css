@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
 
 * {
   padding: 0;
@@ -53,252 +53,272 @@ body {
 
 /* Sample CSS for the WHY word */
 
-.whyWLetter {
+.whyWLetter,
+.question-mark,
+.theyHLetter,
+.becauseBLetter {
   font-size: 72px;
   font-weight: bold;
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
-.whyHLetter {
+.whyHLetter,
+.exclamation-mark,
+.becauseSLetter {
   font-size: 30px;
   font-weight: bold;
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
-.whyYLetter {
+.whyYLetter,
+.hyphen,
+.improveRLetter {
   font-size: 60px;
   font-weight: normal;
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
-.didDLetter {
+.didDLetter,
+.skillsSTwoLetter,
+.becauseELetter,
+.developerPLetter {
+  font-size: 40px;
+  color: #008000;
+  font-weight: 800;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.didILetter {
+.didILetter,
+.skillsLTwoLetter,
+.becauseCLetter,
+.takeTLetter {
+  font-size: 90px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.didDTwoLetter {
+.didDTwoLetter,
+.skillsLLetter,
+.becauseALetter {
+  font-size: 30px;
+  color: hsl(120, 43%, 17%);
+  font-weight: 200;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* THE word */
 
-.theTLetter {
+.theTLetter,
+.skillsILetter,
+.becauseULetter,
+.takeALetter {
+  font-size: 46px;
+  color: #806d00;
+  font-weight: 300;
+  text-decoration: underline dashed;
+  text-transform: lowercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.theHLetter {
+.theHLetter,
+.skillsKLetter,
+.theyTLetter,
+.developerEThreeLetter {
+  font-size: 100px;
+  color: rgb(162, 141, 216);
+  font-weight: 200;
+  text-decoration: underline dotted;
+  text-transform: lowercase;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.theELetter {
+.theELetter,
+.skillsSLetter,
+.becauseETwoLetter,
+.takeKLetter {
+  font-size: 25px;
+  color: rgb(0, 58, 128);
+  font-weight: 700;
+  text-decoration: overline dashed #fff;
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* FRONT-END word */
 
-.frontendFLetter {
+.frontendFLetter,
+.theirELetter,
+.theyELetter,
+.takeELetter {
+  font-size: 40px;
+  color: rgb(234, 234, 234);
+  font-weight: normal;
+  text-decoration: underline solid 3px red;
+  text-transform: lowercase;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.frontendRLetter {
+.frontendRLetter,
+.rootRLetter,
+.theyYLetter,
+.gardeningALetter {
+  font-size: 40px;
+  color: rgb(255, 64, 150);
+  font-weight: bold;
+  text-decoration: line-through dotted;
+  text-transform: capitalize;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
 }
 
-.frontendOLetter {
+.frontendOLetter,
+.improveVLetter,
+.wantedWLetter,
+.gardeningILetter {
+  font-size: 70px;
+  color: green;
+  font-weight: 800;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.frontendNLetter {
+.theirRLetter,
+.frontendNLetter,
+.wantedTLetter,
+.gardeningNLetter {
+  font-size: 68px;
+  color: rgb(153, 199, 37);
+  font-weight: lighter;
+  text-decoration: line-through dotted green;
+  text-transform: lowercase;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.frontendTLetter {
+.frontendTLetter,
+.toTLetter,
+.theirILetter,
+.developerRLetter {
+  font-size: 60px;
+  color: rgb(43, 255, 227);
+  font-weight: 100;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.frontendELetter {
+.frontendELetter,
+.theirTLetter,
+.improveMLetter,
+.gardeningRLetter {
+  font-size: 40px;
+  color: rgb(34, 88, 34);
+  font-weight: 400;
+  text-decoration: underline overline line-through 2px red;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
+.frontendNTwoLetter,
+.frontendDLetter,
+.wantedALetter,
+.gardeningNTwoLetter {
+  font-size: 40px;
+  color: rgb(61, 168, 61);
+  font-weight: 500;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* DEVELOPER word */
 
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
+.developerDLetter,
+.theirHLetter,
+.toOLetter,
 .gardeningGTwoLetter {
+  font-size: 90px;
+  color: rgb(78, 97, 78);
+  font-weight: 10000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
 }
 
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
+.developerELetter,
+.improveOLetter,
+.wantedELetter,
+.upULetter {
+  font-size: 70px;
+  color: rgb(64, 93, 132);
+  font-weight: 800;
+  text-decoration: underline line-through 5px blue;
+  text-transform: lowercase;
+  font-family: "Times New Roman", Times, serif;
 }
 
-/* THEY word */
-
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
+.developerVLetter,
+.rootOLetter,
+.wantedDLetter,
+.gardeningGLetter {
+  font-size: 80px;
+  color: rgb(255, 227, 49);
+  font-weight: 800;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Times New Roman", Times, serif;
 }
 
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
+.developerETwoLetter,
+.rootOTwoLetter,
+.wantedNLetter,
+.gardeningDLetter {
+  font-size: 60px;
+  color: rgb(57, 171, 57);
+  font-weight: 500;
+  text-decoration: overline palegoldenrod;
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
+.developerLLetter,
+.rootTLetter,
+.improvePLetter,
+.gardeningELetter {
+  font-size: 40px;
+  color: green;
+  font-weight: 800;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Times New Roman", Times, serif;
 }
 
-/* SKILLS word */
-
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
-}
-
-/* SYMBOLS */
-
-.hyphen {
-}
-.exclamation-mark {
-}
-.question-mark {
+.developerOLetter,
+.improveELetter,
+.improveELetter,
+.upPLetter {
+  font-size: 30px;
+  color: green;
+  font-weight: 900;
+  text-decoration: line-through overline;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
 }
